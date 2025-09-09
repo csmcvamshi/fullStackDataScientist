@@ -1,0 +1,9 @@
+with open("fibonacci.py") as f:
+    count = 0
+    while True:
+        line = f.readline()
+        if not line:   # stop when no more lines
+            break
+        for i in line.split():
+            count += 1
+    print(count)
