@@ -4,9 +4,8 @@ from datetime import datetime
 import sys
 
 # Set your Supabase credentials here
-url = "https://adsdcoetaexyydxebnpu.supabase.co"
-key="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImFkc2Rjb2V0YWV4eXlkeGVibnB1Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTgwODEyOTgsImV4cCI6MjA3MzY1NzI5OH0.kHK-WcTyP_WqincrlvQ6bKQGjLLUvC1UcUh-5O1QbxA"
-
+url =0
+key=0
 supabase: Client = create_client(url, key)
 
 def add_member():
@@ -127,3 +126,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
